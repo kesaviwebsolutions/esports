@@ -1,0 +1,23 @@
+/* 
+.image{
+    background-image: url("C:\Users\91931\Documents\GitHub\esportsv-12\src\images\gaming.jpg");
+    height: 100vh;
+    width: 100%;
+} */
+.image{
+    background-color: rgb(40, 32, 48);
+    height: 100vh;
+    width: 100%;
+}
+.text1{
+    color: #FCA53D !important;
+    font-style:italic;
+    font-weight: 800;
+}
+.text2{
+    color: white !important;
+   margin-top: 1rem;
+}
+body{
+    background-color: black;
+}

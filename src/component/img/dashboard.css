@@ -1,0 +1,41 @@
+/* 
+.image{
+    background-image: url("C:\Users\91931\Documents\GitHub\esportsv-12\src\images\gaming.jpg");
+    height: 100vh;
+    width: 100%;
+} */
+.image{
+    background-color: rgb(40, 32, 48);
+    height: 100vh;
+    width: 100%;
+}
+.text1{
+    color: #FCA53D !important;
+    font-style:italic;
+    font-weight: 800;
+}
+.text2{
+    color: white !important;
+   margin-top: 1rem;
+}
+.css-1byr0tz{
+    padding-top:0px !important ;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.css-19r6kue-MuiContainer-root{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.css-1y6sui9 {
+    display: none;
+}
+
+@media screen and (max-width:700px){
+    .css-1y6sui9 {
+        display: none !important;
+    }
+}
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-a083jv-MuiPaper-root-MuiAppBar-root {
+    width: 100%;
+}

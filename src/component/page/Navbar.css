@@ -1,3 +1,9 @@
 a.nav-link.login {
    color: #12f14c;
 }
+button.navbar-toggler {
+   font-size: 4rem;
+}
+ul.dropdown-menu.show.animation {
+   font-size: 2rem;
+}

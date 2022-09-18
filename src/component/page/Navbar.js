@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import logo from "../img/logo.png";
-import Image1 from "../img/game-image.jpg";
+// import Image1 from "../img/game-image.jpg";
 import "../page/Navbar.css";
+import "../../App.css";
 import {
   MDBContainer,
   MDBNavbar,
@@ -18,15 +19,15 @@ import {
   MDBDropdownItem,
   MDBCollapse,
 } from "mdb-react-ui-kit";
-import { logDOM } from "@testing-library/react";
+import { style } from "@mui/system";
 
 export default function Navbar() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" dark bgColor="dark">
+    <MDBNavbar expand="lg" dark bgColor="dark" style={{fontSize:"2rem"}}>
       <MDBContainer fluid>
-      <img src={logo} style={{ width: "90px" }} />
+        <img src={logo} style={{ width: "90px" }} />
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
@@ -41,7 +42,7 @@ export default function Navbar() {
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current="page" href="">
-        Home
+                Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
@@ -60,29 +61,24 @@ export default function Navbar() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
-
           </MDBNavbarNav>
 
-   
           <MDBNavbarLink
-
             href="#"
             tabIndex={-1}
             aria-disabled="true"
             className="login"
           >
-       Login
+            Login
           </MDBNavbarLink>
           <MDBNavbarLink
-
-          href="#"
-          tabIndex={-1}
-          aria-disabled="true"
-          className="login"
-        >
-       Signup
-        </MDBNavbarLink>
-     
+            href="#"
+            tabIndex={-1}
+            aria-disabled="true"
+            className="login"
+          >
+            Signup
+          </MDBNavbarLink>
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>

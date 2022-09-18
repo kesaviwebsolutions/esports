@@ -1,0 +1,22 @@
+.first-section{
+    background-image: url("C:\Users\91931\Desktop\esports\src\component\img\background-image2.jpg");
+    background-size: cover;
+    min-height: 87vh;
+}
+/* .first-section-text1{
+    color:#03F490;
+    font-size: 4rem !important;
+    font-style: italic;
+    font-weight: 800 !important;
+}
+.first-section-text2{
+    color:white;
+    font-size: 2rem !important;
+    font-style: italic;
+    font-weight: 600;
+} */
+
+
+*{
+font-family: 'Roboto', sans-serif;
+}
