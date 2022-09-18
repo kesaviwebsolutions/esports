@@ -24,11 +24,11 @@ function Home() {
             className="first-section-text1"
             variant="h1"
             style={{
-              fontSize: "6rem",
+              fontSize: "7rem",
             
               color: "orange",
               margin:"2rem",
-              fontSize:"800"
+              fontWeight:"800"
             }}
           >
             COMPETE. ORGANIZE. WIN.

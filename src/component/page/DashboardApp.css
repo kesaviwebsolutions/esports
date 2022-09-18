@@ -19,5 +19,13 @@
    margin-top: 1rem;
 }
 body{
-    background-color: black;
+    background-color: black !important;
+}
+.fourth-section{
+    background-image: linear-gradient(to right, purple , red);
+
+}
+.button123:hover{
+    background-color: purple;
+    
 }

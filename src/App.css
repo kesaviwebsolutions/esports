@@ -16,4 +16,6 @@ html{
         font-size: 45%;
     }
 }
-
+.css-kz9vhn-MuiGrid-root {
+max-width: none !important;
+}
