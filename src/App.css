@@ -3,19 +3,28 @@
     Roboto, Helvetica, Arial, sans-serif;
 }
 
-html{
-    font-size: 62.5%;
-}
-@media screen and (max-width:998px) {
-    html{
-        font-size: 55%;
+
+@media (max-width: 1400px) {
+    html {
+      font-size: 10px;
     }
-}
-@media screen and (max-width:768px) {
-    html{
-        font-size: 45%;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 8px;
     }
-}
+  }
+  
+
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 8px;
+    }
+  }
 .css-kz9vhn-MuiGrid-root {
 max-width: none !important;
 }
