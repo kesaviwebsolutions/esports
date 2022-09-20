@@ -1,6 +1,6 @@
 // @mui
 import { useTheme } from "@mui/material/styles";
-import { Grid, Container, Typography, Box, Button } from "@mui/material";
+import { Grid, Container, Typography, Box, Button, Link } from "@mui/material";
 // components
 
 import * as React from "react";
@@ -733,7 +733,7 @@ export default function DashboardApp() {
         <Box style={{fontSize:"2rem",color:"white",textAlign:"center",marginTop:"4rem"}}>INVITE FRIENDS AND WIN REWARDS. JOIN BRAVO GAMES TODAY</Box>
         </Grid>
         <Grid item xl={4} lg={4} md={4} sm={12} xs={12} style={{textAlign:"center"}}>
-        <Button style={{backgroundColor:"purple",color:"white",borderRadius:"10px",padding:"1rem 4rem",fontSize:"2rem",textAlign:"center",marginTop:"4rem"}}>Sign up</Button>
+        <Button style={{backgroundColor:"purple",color:"white",borderRadius:"10px",padding:"1rem 4rem",fontSize:"2rem",textAlign:"center",marginTop:"4rem"}}> <Link to="/Signup"> Sign up</Link></Button>
         </Grid>
         </Grid>
       </Grid>
