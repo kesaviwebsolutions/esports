@@ -7,6 +7,7 @@ import { Typography } from "@mui/material";
 import { fontSize } from "@mui/system";
 import DashboardApp from "./DashboardApp";
 import "../../App.css";
+import Footer from "./Footer";
 function Home() {
   return (
     <>
@@ -33,7 +34,7 @@ function Home() {
           >
             COMPETE. ORGANIZE. WIN.
           </Typography>
-          <Typography className="first-section-text2" style={{fontSize:"3rem",color:"white"}}>
+          <Typography variant="h4" className="first-section-text2" style={{fontSize:"3rem",color:"white"}}>
             {" "}
             YOUR ELITE GAMING PLATFORM TO EXPERIENCE<br></br>
             THE BEST OF ESPORTS
@@ -41,6 +42,7 @@ function Home() {
         </Grid>
       </Grid>
       <DashboardApp />
+      <Footer />
     </>
   );
 }

@@ -2,25 +2,22 @@ import "./App.css";
 import * as React from "react";
 import Navbar from "./component/page/Navbar";
 import Home from "./component/page/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Signup from "./component/page/Signup";
-import { theme } from './Theme'; 
-import { ThemeProvider } from '@mui/material/styles';
+import Login from "./component/page/Login";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-
-  
       <Router>
-      <ThemeProvider theme={theme}> 
-          <Routes>
-            <Route path={Home} element={<Home />} />
-            <Route path={Signup} element={<Signup />} />
-          </Routes>
-      </ThemeProvider>
-  </Router>
+        <Navbar />
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </>
   );
 }

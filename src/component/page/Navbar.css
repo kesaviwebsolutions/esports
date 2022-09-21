@@ -1,9 +1,28 @@
 a.nav-link.login {
-   color: #12f14c;
+   color: white;
 }
 button.navbar-toggler {
    font-size: 4rem;
 }
 ul.dropdown-menu.show.animation {
    font-size: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+   margin: 2rem ;
+}
+img.logo {
+   margin: 0em 4rem;
+}
+ul.dropdown-menu.show.animation{
+   background-color: #262626;
+   color: white !important;
+}
+.dropdown-item{
+color: white !important;
+}
+.dropdown-item:hover{
+   color: black !important;
+   }
+.navbar-dark .navbar-nav .nav-link{
+   color:white !important;
 }

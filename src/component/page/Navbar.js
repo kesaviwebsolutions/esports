@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../img/logo.png";
+import logo from "../img/logo1.png";
 // import Image1 from "../img/game-image.jpg";
 import "../page/Navbar.css";
 import "../../App.css";
@@ -25,9 +25,9 @@ export default function Navbar() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" dark bgColor="dark" style={{fontSize:"2rem"}}>
-      <MDBContainer fluid>
-        <img src={logo} style={{ width: "90px" }} />
+    <MDBNavbar expand="lg" dark bgColor="dark" style={{ fontSize: "2rem" }}>
+      <MDBContainer fluid> <MDBNavbarLink active aria-current="page" href="/">
+        <img src={logo} style={{ width: "90px" }} className="logo"/></MDBNavbarLink>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
@@ -41,12 +41,12 @@ export default function Navbar() {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="">
+              <MDBNavbarLink active aria-current="page" href="/">
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Link</MDBNavbarLink>
+              <MDBNavbarLink href="#">Featured Tournament</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
@@ -64,7 +64,7 @@ export default function Navbar() {
           </MDBNavbarNav>
 
           <MDBNavbarLink
-            href="#"
+            href="/Login"
             tabIndex={-1}
             aria-disabled="true"
             className="login"
@@ -72,7 +72,7 @@ export default function Navbar() {
             Login
           </MDBNavbarLink>
           <MDBNavbarLink
-            href="#"
+            href="/signup"
             tabIndex={-1}
             aria-disabled="true"
             className="login"

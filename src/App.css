@@ -1,6 +1,9 @@
 html{
   font-size: 62.5%;
 }
+ /* h1{
+  font-size: 62.5%;
+}  */
 @media screen and (max-width:998px) {
   html{
       font-size: 55%;
@@ -8,6 +11,27 @@ html{
 }
 @media screen and (max-width:768px) {
   html{
-      font-size: 45%;
+      font-size: 55%;
   }
+}
+@media screen and (max-width:768px) {
+ h1{
+  font-size: 300% !important;
+ }
+ h2{
+  font-size: 250% !important;
+ }
+ h3{
+  font-size:250% !important;
+ }
+ h4{
+  font-size: 200% !important;
+ }
+ h5{
+  font-size: 200% !important;
+ } 
+}
+
+.css-kz9vhn-MuiGrid-root{
+  max-width: none !important;
 }
