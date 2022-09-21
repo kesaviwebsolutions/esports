@@ -11,7 +11,7 @@ import calender from "../img/calender.jpg";
 import Card from "@mui/material/Button";
 import "../page/DashboardApp.css";
 import "../../App.css";
-import logo from "../img/logo.png";
+import logo from "../img/logo1.png";
 import Image22 from "../img/image4.png";
 import hand from "../img/image5.jpg";
 
@@ -34,7 +34,7 @@ export default function DashboardApp() {
       >
         <Grid container>
           <Grid item xs={12} md={11} lg={11} sx={{ margin: "2rem auto" }}>
-            <Typography variant="h3" className="text1">
+            <Typography variant="h3" className="text1" style={{color:"#6241E7"}}>
               {" "}
               FEATURED TOURNAMENTS
             </Typography>
@@ -56,7 +56,7 @@ export default function DashboardApp() {
              padding:"1rem"
            
             }}
-          ><Box style={{ border: "0.1rem solid purple", borderRadius: "10px",}}>
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
             <Grid container>
               <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
                 <img src={freefire} alt=" " style={{ width: "100%" }} />
@@ -71,7 +71,7 @@ export default function DashboardApp() {
                 sm={12}
                 xs={12}
                 sx={{ padding: "1rem " }}
-              >
+              ><Box style={{marginBottom:"2rem"}}>
                 <Typography
                   variant="button"
                   sx={{
@@ -88,8 +88,8 @@ export default function DashboardApp() {
                 <Typography
                   variant="span"
                   sx={{
-                    color: "black",
-                    backgroundColor: "#F9B45F",
+                    color: "white",
+                    backgroundColor: "#6241E7",
                     float: "right",
                     padding: "0.2rem 0.5rem",
                     borderRadius: "5px",
@@ -98,7 +98,8 @@ export default function DashboardApp() {
                   }}
                 >
                   Featured
-                </Typography>
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
                 <Typography
                   variant="h5"
                   sx={{
@@ -110,7 +111,7 @@ export default function DashboardApp() {
                   }}
                 >
                   Free-Fire Seasons Daily Tournament2
-                </Typography>
+                </Typography></Box>
                 <Box>
                 <Typography
                   variant="span"
@@ -131,7 +132,7 @@ export default function DashboardApp() {
                   >
                     Registration Starts 16th Sep 2022
                   </Typography>
-                  </Box>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
                 <Typography
                   variant="span"
                   sx={{
@@ -141,20 +142,20 @@ export default function DashboardApp() {
                     marginTop: "4rem",
                   }}
                 >
-                  Tournament By
+                  Tournament By 
                 </Typography>
                 <Typography
                   variant="span"
-                  sx={{ color: "white", fontSize: "2rem" }}
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
                 >
-                  Hala Yalla
-                </Typography>
+                 Bravo
+                </Typography></Box>
                 <Box sx={{ marginTop: "1rem" }}>
                   <Typography
                     variant="button"
                     sx={{
-                      color: "black",
-                      backgroundColor: "#F9B45F",
+                      color: "white",
+                      backgroundColor: "#6241E7",
                       padding: "0.2rem 0.5rem",
                       border: "none",
                       borderRadius: "5px",
@@ -171,259 +172,261 @@ export default function DashboardApp() {
             </Box>
           </Grid>
           <Grid
-          item
-          xl={4}
-          lg={4}
-          md={4}
-          sm={12}
-          xs={12}
-          sx={{
-            backgroundColor: "black",
+            item
+            xl={4}
+            lg={4}
+            md={4}
+            sm={12}
+            xs={12}
+            sx={{
+              backgroundColor: "black",
+             
+             padding:"1rem"
            
-           padding:"1rem"
-         
-          }}
-        ><Box style={{ border: "0.1rem solid purple", borderRadius: "10px",}}>
-          <Grid container>
-            <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-              <img src={freefire} alt=" " style={{ width: "100%" }} />
+            }}
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
+            <Grid container>
+              <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+                <img src={freefire} alt=" " style={{ width: "100%" }} />
+              </Grid>
             </Grid>
-          </Grid>
-          <Grid container>
-            <Grid
-              item
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              xs={12}
-              sx={{ padding: "1rem " }}
-            >
-              <Typography
-                variant="button"
-                sx={{
-                  borderRadius: "5px",
+            <Grid container>
+              <Grid
+                item
+                xl={12}
+                lg={12}
+                md={12}
+                sm={12}
+                xs={12}
+                sx={{ padding: "1rem " }}
+              ><Box style={{marginBottom:"2rem"}}>
+                <Typography
+                  variant="button"
+                  sx={{
+                    borderRadius: "5px",
 
-                  padding: "0.3rem",
-                  cursor: "pointer",
-                  color: "white",
-                  fontSize: "1rem",
-                }}
-              >
-                Free-Fire
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{
-                  color: "black",
-                  backgroundColor: "#F9B45F",
-                  float: "right",
-                  padding: "0.2rem 0.5rem",
-                  borderRadius: "5px",
-                  fontSize: "1.5rem",
-                  marginTop: "1rem 0rem",
-                }}
-              >
-                Featured
-              </Typography>
-              <Typography
-                variant="h5"
-                sx={{
-                  marginTop: "2rem",
-                  color: "white",
-                  marginBottom: "1rem",
-                  fontStyle: "italic",
-                  fontSize: "1.4rem",
-                }}
-              >
-                Free-Fire Seasons Daily Tournament2
-              </Typography>
-              <Box>
-              <Typography
-                variant="span"
-                sx={{ marginBottom: "1rem" }}
-              >
-                <img
-                  src={calender}
-                  alt=""
-                  style={{ marginRight: "0.2rem" }}
-                />  </Typography>
+                    padding: "0.3rem",
+                    cursor: "pointer",
+                    color: "white",
+                    fontSize: "1rem",
+                  }}
+                >
+                  Free-Fire
+                </Typography>
                 <Typography
                   variant="span"
                   sx={{
                     color: "white",
-               
-                    fontSize: "2rem",
+                    backgroundColor: "#6241E7",
+                    float: "right",
+                    padding: "0.2rem 0.5rem",
+                    borderRadius: "5px",
+                    fontSize: "1.5rem",
+                    marginTop: "1rem 0rem",
                   }}
                 >
-                  Registration Starts 16th Sep 2022
+                  Featured
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    marginTop: "2rem",
+                    color: "white",
+                    marginBottom: "1rem",
+                    fontStyle: "italic",
+                    fontSize: "1.4rem",
+                  }}
+                >
+                  Free-Fire Seasons Daily Tournament2
+                </Typography></Box>
+                <Box>
+                <Typography
+                  variant="span"
+                  sx={{ marginBottom: "1rem" }}
+                >
+                  <img
+                    src={calender}
+                    alt=""
+                    style={{ marginRight: "0.2rem" }}
+                  />  </Typography>
+                  <Typography
+                    variant="span"
+                    sx={{
+                      color: "white",
+                 
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Starts 16th Sep 2022
+                  </Typography>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    fontSize: "2rem",
+                    justifyContent: "space-between",
+                    marginTop: "4rem",
+                  }}
+                >
+                  Tournament By 
                 </Typography>
+                <Typography
+                  variant="span"
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
+                >
+                 Bravo
+                </Typography></Box>
+                <Box sx={{ marginTop: "1rem" }}>
+                  <Typography
+                    variant="button"
+                    sx={{
+                      color: "white",
+                      backgroundColor: "#6241E7",
+                      padding: "0.2rem 0.5rem",
+                      border: "none",
+                      borderRadius: "5px",
+                      float: "right",
+                      cursor: "pointer",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Open
+                  </Typography>
                 </Box>
-              <Typography
-                variant="span"
-                sx={{
-                  color: "white",
-                  fontSize: "2rem",
-                  justifyContent: "space-between",
-                  marginTop: "4rem",
-                }}
-              >
-                Tournament By
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{ color: "white", fontSize: "2rem" }}
-              >
-                Hala Yalla
-              </Typography>
-              <Box sx={{ marginTop: "1rem" }}>
+              </Grid>
+            </Grid>
+            </Box>
+          </Grid>
+          <Grid
+            item
+            xl={4}
+            lg={4}
+            md={4}
+            sm={12}
+            xs={12}
+            sx={{
+              backgroundColor: "black",
+             
+             padding:"1rem"
+           
+            }}
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
+            <Grid container>
+              <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+                <img src={freefire} alt=" " style={{ width: "100%" }} />
+              </Grid>
+            </Grid>
+            <Grid container>
+              <Grid
+                item
+                xl={12}
+                lg={12}
+                md={12}
+                sm={12}
+                xs={12}
+                sx={{ padding: "1rem " }}
+              ><Box style={{marginBottom:"2rem"}}>
                 <Typography
                   variant="button"
                   sx={{
-                    color: "black",
-                    backgroundColor: "#F9B45F",
-                    padding: "0.2rem 0.5rem",
-                    border: "none",
                     borderRadius: "5px",
-                    float: "right",
+
+                    padding: "0.3rem",
                     cursor: "pointer",
-                    fontSize: "2rem",
+                    color: "white",
+                    fontSize: "1rem",
                   }}
                 >
-                  Registration Open
+                  Free-Fire
                 </Typography>
-              </Box>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    backgroundColor: "#6241E7",
+                    float: "right",
+                    padding: "0.2rem 0.5rem",
+                    borderRadius: "5px",
+                    fontSize: "1.5rem",
+                    marginTop: "1rem 0rem",
+                  }}
+                >
+                  Featured
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    marginTop: "2rem",
+                    color: "white",
+                    marginBottom: "1rem",
+                    fontStyle: "italic",
+                    fontSize: "1.4rem",
+                  }}
+                >
+                  Free-Fire Seasons Daily Tournament2
+                </Typography></Box>
+                <Box>
+                <Typography
+                  variant="span"
+                  sx={{ marginBottom: "1rem" }}
+                >
+                  <img
+                    src={calender}
+                    alt=""
+                    style={{ marginRight: "0.2rem" }}
+                  />  </Typography>
+                  <Typography
+                    variant="span"
+                    sx={{
+                      color: "white",
+                 
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Starts 16th Sep 2022
+                  </Typography>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    fontSize: "2rem",
+                    justifyContent: "space-between",
+                    marginTop: "4rem",
+                  }}
+                >
+                  Tournament By 
+                </Typography>
+                <Typography
+                  variant="span"
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
+                >
+                 Bravo
+                </Typography></Box>
+                <Box sx={{ marginTop: "1rem" }}>
+                  <Typography
+                    variant="button"
+                    sx={{
+                      color: "white",
+                      backgroundColor: "#6241E7",
+                      padding: "0.2rem 0.5rem",
+                      border: "none",
+                      borderRadius: "5px",
+                      float: "right",
+                      cursor: "pointer",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Open
+                  </Typography>
+                </Box>
+              </Grid>
             </Grid>
-          </Grid>
-          </Box>
-        </Grid>
-        <Grid
-        item
-        xl={4}
-        lg={4}
-        md={4}
-        sm={12}
-        xs={12}
-        sx={{
-          backgroundColor: "black",
-         
-         padding:"1rem"
-       
-        }}
-      ><Box style={{ border: "0.1rem solid purple", borderRadius: "10px",}}>
-        <Grid container>
-          <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-            <img src={freefire} alt=" " style={{ width: "100%" }} />
-          </Grid>
-        </Grid>
-        <Grid container>
-          <Grid
-            item
-            xl={12}
-            lg={12}
-            md={12}
-            sm={12}
-            xs={12}
-            sx={{ padding: "1rem " }}
-          >
-            <Typography
-              variant="button"
-              sx={{
-                borderRadius: "5px",
-
-                padding: "0.3rem",
-                cursor: "pointer",
-                color: "white",
-                fontSize: "1rem",
-              }}
-            >
-              Free-Fire
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{
-                color: "black",
-                backgroundColor: "#F9B45F",
-                float: "right",
-                padding: "0.2rem 0.5rem",
-                borderRadius: "5px",
-                fontSize: "1.5rem",
-                marginTop: "1rem 0rem",
-              }}
-            >
-              Featured
-            </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                marginTop: "2rem",
-                color: "white",
-                marginBottom: "1rem",
-                fontStyle: "italic",
-                fontSize: "1.4rem",
-              }}
-            >
-              Free-Fire Seasons Daily Tournament2
-            </Typography>
-            <Box>
-            <Typography
-              variant="span"
-              sx={{ marginBottom: "1rem" }}
-            >
-              <img
-                src={calender}
-                alt=""
-                style={{ marginRight: "0.2rem" }}
-              />  </Typography>
-              <Typography
-                variant="span"
-                sx={{
-                  color: "white",
-             
-                  fontSize: "2rem",
-                }}
-              >
-                Registration Starts 16th Sep 2022
-              </Typography>
-              </Box>
-            <Typography
-              variant="span"
-              sx={{
-                color: "white",
-                fontSize: "2rem",
-                justifyContent: "space-between",
-                marginTop: "4rem",
-              }}
-            >
-              Tournament By
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{ color: "white", fontSize: "2rem" }}
-            >
-              Hala Yalla
-            </Typography>
-            <Box sx={{ marginTop: "1rem" }}>
-              <Typography
-                variant="button"
-                sx={{
-                  color: "black",
-                  backgroundColor: "#F9B45F",
-                  padding: "0.2rem 0.5rem",
-                  border: "none",
-                  borderRadius: "5px",
-                  float: "right",
-                  cursor: "pointer",
-                  fontSize: "2rem",
-                }}
-              >
-                Registration Open
-              </Typography>
             </Box>
           </Grid>
-        </Grid>
-        </Box>
-      </Grid>
             </Grid>
             
           </Grid>
@@ -464,7 +467,7 @@ export default function DashboardApp() {
              padding:"1rem"
            
             }}
-          ><Box style={{  borderRadius: "10px",}}>
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
             <Grid container>
               <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
                 <img src={freefire} alt=" " style={{ width: "100%" }} />
@@ -479,7 +482,7 @@ export default function DashboardApp() {
                 sm={12}
                 xs={12}
                 sx={{ padding: "1rem " }}
-              >
+              ><Box style={{marginBottom:"2rem"}}>
                 <Typography
                   variant="button"
                   sx={{
@@ -496,8 +499,8 @@ export default function DashboardApp() {
                 <Typography
                   variant="span"
                   sx={{
-                    color: "black",
-                    backgroundColor: "#F9B45F",
+                    color: "white",
+                    backgroundColor: "#6241E7",
                     float: "right",
                     padding: "0.2rem 0.5rem",
                     borderRadius: "5px",
@@ -506,7 +509,8 @@ export default function DashboardApp() {
                   }}
                 >
                   Featured
-                </Typography>
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
                 <Typography
                   variant="h5"
                   sx={{
@@ -518,27 +522,28 @@ export default function DashboardApp() {
                   }}
                 >
                   Free-Fire Seasons Daily Tournament2
-                </Typography>
+                </Typography></Box>
+                <Box>
                 <Typography
                   variant="span"
-                  sx={{ display: "flex", marginBottom: "1rem" }}
+                  sx={{ marginBottom: "1rem" }}
                 >
                   <img
                     src={calender}
                     alt=""
                     style={{ marginRight: "0.2rem" }}
-                  />
+                  />  </Typography>
                   <Typography
                     variant="span"
                     sx={{
                       color: "white",
-                      display: "flex",
+                 
                       fontSize: "2rem",
                     }}
                   >
                     Registration Starts 16th Sep 2022
                   </Typography>
-                </Typography>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
                 <Typography
                   variant="span"
                   sx={{
@@ -548,20 +553,20 @@ export default function DashboardApp() {
                     marginTop: "4rem",
                   }}
                 >
-                  Tournament By
+                  Tournament By 
                 </Typography>
                 <Typography
                   variant="span"
-                  sx={{ color: "white", fontSize: "2rem" }}
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
                 >
-                  Hala Yalla
-                </Typography>
+                 Bravo
+                </Typography></Box>
                 <Box sx={{ marginTop: "1rem" }}>
                   <Typography
                     variant="button"
                     sx={{
-                      color: "black",
-                      backgroundColor: "#F9B45F",
+                      color: "white",
+                      backgroundColor: "#6241E7",
                       padding: "0.2rem 0.5rem",
                       border: "none",
                       borderRadius: "5px",
@@ -578,257 +583,261 @@ export default function DashboardApp() {
             </Box>
           </Grid>
           <Grid
-          item
-          xl={4}
-          lg={4}
-          md={4}
-          sm={12}
-          xs={12}
-          sx={{
-            backgroundColor: "black",
+            item
+            xl={4}
+            lg={4}
+            md={4}
+            sm={12}
+            xs={12}
+            sx={{
+              backgroundColor: "black",
+             
+             padding:"1rem"
            
-           padding:"1rem"
-         
-          }}
-        ><Box style={{  borderRadius: "10px",}}>
-          <Grid container>
-            <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-              <img src={freefire} alt=" " style={{ width: "100%" }} />
+            }}
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
+            <Grid container>
+              <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+                <img src={freefire} alt=" " style={{ width: "100%" }} />
+              </Grid>
             </Grid>
-          </Grid>
-          <Grid container>
-            <Grid
-              item
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              xs={12}
-              sx={{ padding: "1rem " }}
-            >
-              <Typography
-                variant="button"
-                sx={{
-                  borderRadius: "5px",
+            <Grid container>
+              <Grid
+                item
+                xl={12}
+                lg={12}
+                md={12}
+                sm={12}
+                xs={12}
+                sx={{ padding: "1rem " }}
+              ><Box style={{marginBottom:"2rem"}}>
+                <Typography
+                  variant="button"
+                  sx={{
+                    borderRadius: "5px",
 
-                  padding: "0.3rem",
-                  cursor: "pointer",
-                  color: "white",
-                  fontSize: "1rem",
-                }}
-              >
-                Free-Fire
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{
-                  color: "black",
-                  backgroundColor: "#F9B45F",
-                  float: "right",
-                  padding: "0.2rem 0.5rem",
-                  borderRadius: "5px",
-                  fontSize: "1.5rem",
-                  marginTop: "1rem 0rem",
-                }}
-              >
-                Featured
-              </Typography>
-              <Typography
-                variant="h5"
-                sx={{
-                  marginTop: "2rem",
-                  color: "white",
-                  marginBottom: "1rem",
-                  fontStyle: "italic",
-                  fontSize: "1.4rem",
-                }}
-              >
-                Free-Fire Seasons Daily Tournament2
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{ display: "flex", marginBottom: "1rem" }}
-              >
-                <img
-                  src={calender}
-                  alt=""
-                  style={{ marginRight: "0.2rem" }}
-                />
+                    padding: "0.3rem",
+                    cursor: "pointer",
+                    color: "white",
+                    fontSize: "1rem",
+                  }}
+                >
+                  Free-Fire
+                </Typography>
                 <Typography
                   variant="span"
                   sx={{
                     color: "white",
-                    display: "flex",
-                    fontSize: "2rem",
+                    backgroundColor: "#6241E7",
+                    float: "right",
+                    padding: "0.2rem 0.5rem",
+                    borderRadius: "5px",
+                    fontSize: "1.5rem",
+                    marginTop: "1rem 0rem",
                   }}
                 >
-                  Registration Starts 16th Sep 2022
+                  Featured
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    marginTop: "2rem",
+                    color: "white",
+                    marginBottom: "1rem",
+                    fontStyle: "italic",
+                    fontSize: "1.4rem",
+                  }}
+                >
+                  Free-Fire Seasons Daily Tournament2
+                </Typography></Box>
+                <Box>
+                <Typography
+                  variant="span"
+                  sx={{ marginBottom: "1rem" }}
+                >
+                  <img
+                    src={calender}
+                    alt=""
+                    style={{ marginRight: "0.2rem" }}
+                  />  </Typography>
+                  <Typography
+                    variant="span"
+                    sx={{
+                      color: "white",
+                 
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Starts 16th Sep 2022
+                  </Typography>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    fontSize: "2rem",
+                    justifyContent: "space-between",
+                    marginTop: "4rem",
+                  }}
+                >
+                  Tournament By 
                 </Typography>
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{
-                  color: "white",
-                  fontSize: "2rem",
-                  justifyContent: "space-between",
-                  marginTop: "4rem",
-                }}
-              >
-                Tournament By
-              </Typography>
-              <Typography
-                variant="span"
-                sx={{ color: "white", fontSize: "2rem" }}
-              >
-                Hala Yalla
-              </Typography>
-              <Box sx={{ marginTop: "1rem" }}>
+                <Typography
+                  variant="span"
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
+                >
+                 Bravo
+                </Typography></Box>
+                <Box sx={{ marginTop: "1rem" }}>
+                  <Typography
+                    variant="button"
+                    sx={{
+                      color: "white",
+                      backgroundColor: "#6241E7",
+                      padding: "0.2rem 0.5rem",
+                      border: "none",
+                      borderRadius: "5px",
+                      float: "right",
+                      cursor: "pointer",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Open
+                  </Typography>
+                </Box>
+              </Grid>
+            </Grid>
+            </Box>
+          </Grid>
+          <Grid
+            item
+            xl={4}
+            lg={4}
+            md={4}
+            sm={12}
+            xs={12}
+            sx={{
+              backgroundColor: "black",
+             
+             padding:"1rem"
+           
+            }}
+          ><Box style={{ border: "0.1rem solid #6241E7", borderRadius: "10px",}}>
+            <Grid container>
+              <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+                <img src={freefire} alt=" " style={{ width: "100%" }} />
+              </Grid>
+            </Grid>
+            <Grid container>
+              <Grid
+                item
+                xl={12}
+                lg={12}
+                md={12}
+                sm={12}
+                xs={12}
+                sx={{ padding: "1rem " }}
+              ><Box style={{marginBottom:"2rem"}}>
                 <Typography
                   variant="button"
                   sx={{
-                    color: "black",
-                    backgroundColor: "#F9B45F",
-                    padding: "0.2rem 0.5rem",
-                    border: "none",
                     borderRadius: "5px",
-                    float: "right",
+
+                    padding: "0.3rem",
                     cursor: "pointer",
-                    fontSize: "2rem",
+                    color: "white",
+                    fontSize: "1rem",
                   }}
                 >
-                  Registration Open
+                  Free-Fire
                 </Typography>
-              </Box>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    backgroundColor: "#6241E7",
+                    float: "right",
+                    padding: "0.2rem 0.5rem",
+                    borderRadius: "5px",
+                    fontSize: "1.5rem",
+                    marginTop: "1rem 0rem",
+                  }}
+                >
+                  Featured
+                </Typography></Box>
+                <Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    marginTop: "2rem",
+                    color: "white",
+                    marginBottom: "1rem",
+                    fontStyle: "italic",
+                    fontSize: "1.4rem",
+                  }}
+                >
+                  Free-Fire Seasons Daily Tournament2
+                </Typography></Box>
+                <Box>
+                <Typography
+                  variant="span"
+                  sx={{ marginBottom: "1rem" }}
+                >
+                  <img
+                    src={calender}
+                    alt=""
+                    style={{ marginRight: "0.2rem" }}
+                  />  </Typography>
+                  <Typography
+                    variant="span"
+                    sx={{
+                      color: "white",
+                 
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Starts 16th Sep 2022
+                  </Typography>
+                  </Box><Box style={{margin:"2rem 0rem"}}>
+                <Typography
+                  variant="span"
+                  sx={{
+                    color: "white",
+                    fontSize: "2rem",
+                    justifyContent: "space-between",
+                    marginTop: "4rem",
+                  }}
+                >
+                  Tournament By 
+                </Typography>
+                <Typography
+                  variant="span"
+                  sx={{ color: "white", fontSize: "2rem" ,float:"right"}}
+                >
+                 Bravo
+                </Typography></Box>
+                <Box sx={{ marginTop: "1rem" }}>
+                  <Typography
+                    variant="button"
+                    sx={{
+                      color: "white",
+                      backgroundColor: "#6241E7",
+                      padding: "0.2rem 0.5rem",
+                      border: "none",
+                      borderRadius: "5px",
+                      float: "right",
+                      cursor: "pointer",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Registration Open
+                  </Typography>
+                </Box>
+              </Grid>
             </Grid>
-          </Grid>
-          </Box>
-        </Grid>
-        <Grid
-        item
-        xl={4}
-        lg={4}
-        md={4}
-        sm={12}
-        xs={12}
-        sx={{
-          backgroundColor: "black",
-         
-         padding:"1rem"
-       
-        }}
-      ><Box style={{  borderRadius: "10px",}}>
-        <Grid container>
-          <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-            <img src={freefire} alt=" " style={{ width: "100%" }} />
-          </Grid>
-        </Grid>
-        <Grid container>
-          <Grid
-            item
-            xl={12}
-            lg={12}
-            md={12}
-            sm={12}
-            xs={12}
-            sx={{ padding: "1rem " }}
-          >
-            <Typography
-              variant="button"
-              sx={{
-                borderRadius: "5px",
-
-                padding: "0.3rem",
-                cursor: "pointer",
-                color: "white",
-                fontSize: "1rem",
-              }}
-            >
-              Free-Fire
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{
-                color: "black",
-                backgroundColor: "#F9B45F",
-                float: "right",
-                padding: "0.2rem 0.5rem",
-                borderRadius: "5px",
-                fontSize: "1.5rem",
-                marginTop: "1rem 0rem",
-              }}
-            >
-              Featured
-            </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                marginTop: "2rem",
-                color: "white",
-                marginBottom: "1rem",
-                fontStyle: "italic",
-                fontSize: "1.4rem",
-              }}
-            >
-              Free-Fire Seasons Daily Tournament2
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{ display: "flex", marginBottom: "1rem" }}
-            >
-              <img
-                src={calender}
-                alt=""
-                style={{ marginRight: "0.2rem" }}
-              />
-              <Typography
-                variant="span"
-                sx={{
-                  color: "white",
-                  display: "flex",
-                  fontSize: "2rem",
-                }}
-              >
-                Registration Starts 16th Sep 2022
-              </Typography>
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{
-                color: "white",
-                fontSize: "2rem",
-                justifyContent: "space-between",
-                marginTop: "4rem",
-              }}
-            >
-              Tournament By
-            </Typography>
-            <Typography
-              variant="span"
-              sx={{ color: "white", fontSize: "2rem" }}
-            >
-              Hala Yalla
-            </Typography>
-            <Box sx={{ marginTop: "1rem" }}>
-              <Typography
-                variant="button"
-                sx={{
-                  color: "black",
-                  backgroundColor: "#F9B45F",
-                  padding: "0.2rem 0.5rem",
-                  border: "none",
-                  borderRadius: "5px",
-                  float: "right",
-                  cursor: "pointer",
-                  fontSize: "2rem",
-                }}
-              >
-                Registration Open
-              </Typography>
             </Box>
           </Grid>
-        </Grid>
-        </Box>
-      </Grid>
             </Grid>
           </Grid>
         </Grid>
@@ -867,7 +876,7 @@ export default function DashboardApp() {
                     variant="Button"
                     style={{
                       backgroundColor: "white",
-                      color: "purple",
+                      color: "#6241E7",
                       fontSize: "2rem",
                       padding: "1rem 2rem",
                       borderRadius: "1rem",
@@ -897,7 +906,7 @@ export default function DashboardApp() {
         >
           <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
             <Box style={{ padding: "2rem", marginLeft: "2rem" }}>
-              <Typography style={{ fontSize: "4rem", color: "purple" }}>
+              <Typography style={{ fontSize: "4rem", color: "#6241E7" }}>
                 #Game For Good
               </Typography>
               <Typography style={{ color: "white", fontSize: "1.5rem" }}>
@@ -1252,7 +1261,7 @@ export default function DashboardApp() {
           >
             <Button
               style={{
-                backgroundColor: "purple",
+                backgroundColor: "#6241E7",
                 color: "white",
                 borderRadius: "10px",
                 padding: "1rem 4rem",
@@ -1286,7 +1295,7 @@ export default function DashboardApp() {
               style={{ color: "white", marginTop: "4rem", fontWeight: "800" }}
             >
               {" "}
-              <Typography variant="h2"> OUR ESPORTS TRACK RECORD </Typography>
+              <Typography variant="h2" style={{color:"#6241E7"}}> OUR ESPORTS TRACK RECORD </Typography>
             </Box>
           </Grid>
         </Grid>
@@ -1300,7 +1309,7 @@ export default function DashboardApp() {
             padding: "1rem",
           }}
         >
-          <Grid item xl={1} lg={1} md={1} sm={6} xs={12}></Grid>
+         
           <Grid
             item
             xl={2}
@@ -1640,9 +1649,9 @@ export default function DashboardApp() {
           </Grid>
           <Grid
             item
-            xl={2}
-            lg={2}
-            md={2}
+            xl={3}
+            lg={3}
+            md={3}
             sm={6}
             xs={12}
             style={{ textAlign: "center" }}
@@ -1742,7 +1751,7 @@ export default function DashboardApp() {
               </span>
             </Box>
           </Grid>
-          <Grid item xl={1} lg={1} md={1} sm={6} xs={12}></Grid>
+         
         </Grid>
       </Grid>
       {/* .................................................................................................................. */}
@@ -1759,7 +1768,7 @@ export default function DashboardApp() {
           }}
         >
           <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-            <Typography variant="h2" style={{ color: "white" }}>
+            <Typography variant="h2" style={{ color: "#6241E7 " }}>
               BRAVO GAMES FEATURES
             </Typography>
           </Grid>

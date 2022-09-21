@@ -15,7 +15,7 @@ function Footer() {
     container
     style={{
       width: "90%",
-      margin: "2rem auto",
+      marginLeft: "2rem",
       padding: "2rem auto",
       borderRadius: "10px",
       padding: "1rem",
@@ -150,7 +150,7 @@ function Footer() {
 <span>© BRAVO Games 2022 All Right Reserved.</span>
   </Grid>
   <Grid item xl={6} lg={6} md={6} sm={12} xs={12} style={{color:"white"}}>
-  <h1 style={{margin:"2rem 0rem",color:"purple",fontSize:"3rem"}}>About Bravo Games</h1>
+  <h1 style={{margin:"2rem 0rem",color:"#6241E7",fontSize:"3rem"}}>About Bravo Games</h1>
   <span style={{fontSize:"2rem"}}>About</span><br/><br/>
   <span style={{fontSize:"2rem"}}>Featured Tournament</span><br/><br/>
 

@@ -10,9 +10,7 @@ ul.dropdown-menu.show.animation {
 .navbar-dark .navbar-nav .nav-link{
    margin: 2rem ;
 }
-img.logo {
-   margin: 0em 4rem;
-}
+
 ul.dropdown-menu.show.animation{
    background-color: #262626;
    color: white !important;
@@ -25,4 +23,9 @@ color: white !important;
    }
 .navbar-dark .navbar-nav .nav-link{
    color:white !important;
+}
+@media screen and (min-width:700px) {
+   img.logo {
+      margin: 0em 4rem;
+   }
 }

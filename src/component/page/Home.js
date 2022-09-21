@@ -27,17 +27,16 @@ function Home() {
             style={{
               fontSize: "7rem",
             
-              color: "orange",
+              color: "#6241E7",
               margin:"2rem",
               fontWeight:"800"
             }}
           >
-            COMPETE. ORGANIZE. WIN.
+        BRAVO! – ESPORTS FANTASY PLATFORM
           </Typography>
           <Typography variant="h4" className="first-section-text2" style={{fontSize:"3rem",color:"white"}}>
             {" "}
-            YOUR ELITE GAMING PLATFORM TO EXPERIENCE<br></br>
-            THE BEST OF ESPORTS
+            PLAY BIG – WIN BIG
           </Typography>
         </Grid>
       </Grid>
